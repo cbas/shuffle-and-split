@@ -7,10 +7,12 @@
     "lodash": "^4.0.0"
   },
   "devDependencies": {
+    "lodash.isequal": "^4.0.0",
+    "mocha": "^2.3.4",
     "standard": "^5.4.1"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard && mocha"
   },
   "author": "",
   "license": "ISC"
